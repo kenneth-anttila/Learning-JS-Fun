@@ -1,0 +1,13 @@
+let age = Math.random() * 30;
+if (age) {
+  console.log(age)
+} else {
+  console.log('no age!')
+};
+if (age < 21){
+  console.log('No drinking!')
+} else if (age < 22 && age > 21){
+  console.log('Do not go crazy!')
+} else {
+  console.log('What is your drink of choice?')
+};
