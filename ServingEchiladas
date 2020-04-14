@@ -1,0 +1,2 @@
+const entree = 'Enchiladas';
+console.log(entree +': coming up in ' + Math.ceil(Math.random()*50) + ' seconds')
