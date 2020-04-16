@@ -1,0 +1,16 @@
+const sciences = ['computer science','biology','chemistry','mathematics','physics'];
+const humanities = ['history','english','music','rhetoric','philosophy'];
+const socialSciences = ['psychology','sociology','economics','criminology','business'];
+let sci = sciences[Math.floor(Math.random() * sciences.length)];
+let hum = humanities[Math.floor(Math.random() * humanities.length)];
+let socSci = socialSciences[Math.floor(Math.random() * socialSciences.length)];
+console.log(sci + ' through teaching, ' + hum + ' through books, and ' + socSci + ' through experience.');
+if (hum == humanities[1] || hum == humanities[4]){
+  console.log('Won\'t need an ' + hum + ' teacher!')
+};
+if (sci == sciences[0]){
+  console.log('I\'m learning ' + sci + ' right now!')
+};
+if (socSci == socialSciences[2]){
+  console.log('That ' + socSci + ' profession is full of charlatans!')
+}
