@@ -1,0 +1,7 @@
+let marches = Math.floor(Math.random()*5);
+function repeatStringNumTimes(str, numb){
+  return str.repeat(numb);
+};
+for (i=0; i< marches; i++){
+  console.log(repeatStringNumTimes(' left, left, left right left —', marches))
+}
