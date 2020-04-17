@@ -4,3 +4,13 @@ const bigNums = nums.map(num => num*3).reduce(function(accumulator,currentValue)
   return newNum
 });
 console.log(bigNums);
+// 229635
+const newArray = (Array.from(bigNums.toString()).map(Number));
+console.log(newArray);
+// [2, 2, 9, 6, 3, 5]
+const newBigNum = newArray.map(neg => neg * -5).reduce(function(accumulator,currentValue){
+  const newNewNum = (accumulator*currentValue)/ -(accumulator);
+  return newNewNum
+});
+console.log(newBigNum);
+// 25
