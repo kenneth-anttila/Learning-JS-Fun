@@ -1,0 +1,6 @@
+const nums = [1,3,5,7,9];
+const bigNums = nums.map(num => num*3).reduce(function(accumulator,currentValue){
+  const newNum = accumulator * currentValue;
+  return newNum
+});
+console.log(bigNums);
