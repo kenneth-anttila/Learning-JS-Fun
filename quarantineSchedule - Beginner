@@ -1,0 +1,19 @@
+function quarantineSchedule(day) {
+  if (day === "mOnDaY"){
+    return "Read"
+  } else if (day === "wednesday"){
+    return "Puzzles"
+  } else if (day === "FRIDAY") {
+    return "Netflix"
+  } else if (day === "SuNDay"){
+    return "Exercise"
+  } else {
+    return "Code"
+  }
+};
+
+console.log(quarantineSchedule('mOnDaY')) // should log 'Read'
+console.log(quarantineSchedule('wednesday')) // should log 'Puzzles'
+console.log(quarantineSchedule('FRIDAY')) // should log 'Netflix'
+console.log(quarantineSchedule('SuNDay')) // should log 'Exercise'
+console.log(quarantineSchedule('tuesDAY')) // should log 'Code'
