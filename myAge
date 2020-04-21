@@ -1,0 +1,10 @@
+// ADD CODE BELOW
+let birthYear = 2003;
+let age = 16;
+let in10Yrs = age +10
+
+// Uncomment these to check your work!
+console.log(birthYear);
+console.log(age);
+console.log(in10Yrs);
+console.log(`I am currently ${age}, being born in ${birthYear}, but in ten years I will be ${in10Yrs}`)
