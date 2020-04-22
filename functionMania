@@ -1,0 +1,27 @@
+let calls = "";
+
+function jerry(str) {
+  calls = 'Jerry' + kramer() + george() + elaine();
+  return calls;
+}
+
+function george(str) {
+  calls = 'George';
+  return calls;
+}
+
+function elaine(str) {
+  calls ='Elaine';
+  return calls;
+}
+
+function kramer(str) {
+  calls = 'Kramer';
+  return calls;
+}
+
+
+
+// should return: 'JerryKramerGeorgeElaine'
+calls = jerry(calls);
+console.log(calls);
