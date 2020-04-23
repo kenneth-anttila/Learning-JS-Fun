@@ -1,0 +1,22 @@
+function disemvowel(string) {
+  // your code here...
+   let str = string;
+   if (str.indexOf('A') > -1 || str.indexOf('e') > -1 || str.indexOf('i') > -1 || str.indexOf('o') > -1 || str.indexOf('u') > -1){
+     let newS = str.replace('A','');
+     let newSt = newS.replace('A','');
+     let newStr = newSt.replace('A','');
+     let newStr2 = newStr.replace('e','');
+     let newStr3 = newStr2.replace('i','');
+     let newStr4 = newStr3.replace('o','');
+     let newStr5 = newStr4.replace('o','');
+     let newStr6 = newStr5.replace('u','');
+     return newStr6
+   }
+   return newStr6
+};
+
+//Comment in the code below to test your function:
+
+console.log(disemvowel('CodeSmith')); // => 'CdSmth'
+console.log(disemvowel('BANANA')); // => 'BNN'
+console.log(disemvowel('hello world')); // => 'hll wrld'
