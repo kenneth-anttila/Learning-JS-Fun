@@ -1,0 +1,15 @@
+function arrayBuilder(obj) {
+  // your code here...
+  let arr = []
+  
+  for (let key in obj){
+    for (let i = 0; i < obj[key]; i++)
+    arr.push(key);
+  }
+  return arr
+}
+
+//Comment in the code below to test your function:
+
+ console.log(arrayBuilder({'cats': 2, 'dogs': 1})); //=> ['cats', 'cats', 'dogs']
+ console.log(arrayBuilder({})); //=> []
